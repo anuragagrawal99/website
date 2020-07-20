@@ -1,0 +1,668 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    text-align: center;
+}
+
+/* *****************************************         First Page          ****************************************/
+
+/***************************** Navigation Bar **************/
+
+.navigation-bar{
+  padding: 0% 15% 0% 15%;
+  margin: 0;
+}
+
+/* *************** Logo *****************/
+
+.logo:hover{
+  transform: scale(1.25);
+}
+
+/**************** Anchor Tags *****************/
+
+.navbar-nav > li{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.a-nav{
+  font-size: 15px;
+  font-family: 'Orbitron', sans-serif;
+  color: #C0C0C0;
+  position: relative;
+  text-decoration: none;
+}
+
+.a-nav:hover{
+  transform: scale(1.25);
+}
+
+.a-nav::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:#C0C0C0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.a-nav:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/*********************************************** First Page ***************************************/
+
+.first-page{
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 640px) {
+  .first-page{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+  }
+}
+
+.name{
+  font-size: 100rem;
+  padding-top: 5%;
+  padding-bottom: 16%;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.anurag{
+  font-family: 'Arizonia', cursive;
+  font-size: 100px;
+}
+
+.web{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+  padding-bottom: 3%;
+}
+
+@media screen and (max-width: 640px) {
+  .anurag{
+    font-size: 60px;
+    padding-top: 20%;
+    margin-top: 10%;
+  }
+  .web {
+    font-size: 25px;
+    padding-bottom: 80%;
+    padding-top: 2%;
+  }
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+/*********************************************** Profile Page ***************************************/
+
+.profile-page{
+  padding: 5% 15% 5% 15%;
+  background: #eb01a5;
+  background-image: url("https://www.transparenttextures.com/patterns/always-grey.png"), linear-gradient(to top, #000000, #434343, #434343);
+  /* background-attachment: fixed; */
+}
+
+@media screen and (max-width: 640px) {
+  .profile-page{
+    padding: 25% 15% 15% 5%;
+  }
+}
+
+/********************** Heading *************************/
+
+.heading {
+  font-family: 'Orbitron', sans-serif;
+  color: #fffbf1;
+  text-shadow: 0 10px 12px #2e2e31, 0 20px 30px #2e2e31;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: -3px;
+  margin: 4% 0 4% 35%;
+  position: absolute;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@keyframes tipsy {
+  0 {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .heading{
+    margin: 5% 0 5% 45%;
+  }
+}
+
+.heading:before,
+.heading:after {
+  content: '';
+  padding: .9em .4em;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  top: 50%;
+  display: block;
+  border: 15px solid red;
+  transform: translateX(-50%) translateY(-50%) rotate(0deg);
+  animation: 10s infinite alternate ease-in-out tipsy;
+}
+
+.heading:before {
+  border-color: #d9524a #d9524a rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+  z-index: -1;
+}
+
+.heading:after {
+  border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #d9524a #d9524a;
+  box-shadow: 12px 12px 12px rgba(46, 46, 49, .8);
+}
+
+/********************** Feature Title *************************/
+
+.feature-title{
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.feature-box{
+  margin-top: 20%;
+}
+
+@media screen and (max-width: 640px) {
+  .feature-box{
+    margin-top: 45%;
+  }
+}
+
+/********************** Paragraph *************************/
+
+p{
+  font-family: 'Poiret One', cursive;
+  font-weight: 800;
+}
+
+.p-left{
+  font-size: 20px;
+  color: #C0C0C0;
+  text-align: left;
+}
+
+.p-right{
+  text-align: right;
+  font-size: 20px;
+  color: #C0C0C0;
+}
+
+.detail-items {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+  text-align: right;
+}
+
+/********************** Profile Picture *************************/
+
+.profile-picture{
+  height: 115%;
+  width: 130%;
+  position: relative;
+  right: 11%;
+  bottom: 14%;
+}
+
+.profile-picture:hover{
+  transform: scale(1.25);
+}
+
+@media screen and (max-width: 640px) {
+  .profile-picture{
+    margin: auto;
+    height: 125%;
+    width: 130%;
+    position: relative;
+    right: 8%;
+    bottom: 18%;
+  }
+}
+
+/*********************************************** Experience Page ***************************************/
+
+.experinece-page{
+  background-color: #3f72af;
+  padding: 5% 15% 5% 15%;
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png"), linear-gradient(to top left, #b92b27, #1565C0);
+  background-attachment: fixed;
+}
+
+/********************** Experinece Heading *************************/
+
+.experiences{
+  margin-top: 9%;
+}
+
+@media screen and (max-width: 640px) {
+  .experiences{
+    margin-top: 42%;
+    margin-left: 35%;
+    font-size: 3rem;
+  }
+}
+
+/********************** Educations Heading *************************/
+
+.educations{
+  padding-top: 25%;
+  text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+  .educations{
+    padding-top: 130%;
+  }
+}
+
+.card-educations{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.card-img{
+  height: 12rem;
+  width: 12rem;
+}
+
+.p-right-a{
+  color: #C0C0C0;
+}
+
+.p-right-a:hover{
+  color: white;
+}
+
+/********************** Careers Heading *************************/
+
+.careers{
+  text-align: left;
+}
+
+/*********************************************** Abilities Page ***************************************/
+
+.abilities-page{
+  background-color: #b83b5e;
+  padding: 5% 15% 5% 15%;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png"), linear-gradient(to top left, #159957, #155799);
+  background-attachment: fixed;
+}
+
+/********************** Abilities Heading *************************/
+
+.abilities{
+  margin-top: 6%;
+}
+
+@media screen and (max-width: 640px) {
+  .abilities{
+    margin-top: 30%;
+    right: 0%;
+    left: 5%;
+  }
+}
+
+/********************** Skills Heading *************************/
+
+.skills{
+  padding-top: 20%;
+  text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+  .skills{
+    padding-top: 90%;
+  }
+}
+
+/********************** Skill Items *************************/
+
+.skill-items{
+  padding-top: 0%;
+}
+
+.ab-items:hover{
+  color: white;
+}
+
+/********************** Star Ratings *************************/
+
+.fa-star{
+  color: gold;
+}
+
+.star-right{
+  text-align: right;
+  font-size: 1rem;
+}
+
+/********************** Languages Heading *************************/
+
+.languages{
+  padding-top: 5%;
+  text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+  .languages{
+    padding-top: 10%;
+  }
+}
+
+/*********************************************** Projects Page ***************************************/
+
+.project-page{
+  background-color: #522546;
+  padding: 5% 15% 5% 15%;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"), linear-gradient(to bottom left, #C33764, #1D2671);
+  background-attachment: fixed;
+}
+
+/********************** Projects Heading *************************/
+
+.projects{
+  margin-top: 6%;
+}
+
+@media screen and (max-width: 640px) {
+  .projects{
+    margin-top: 32%;
+    right: 0%;
+    left: 2%;
+  }
+}
+
+/********************** Paragraph *************************/
+
+.photoshop{
+  margin-top: 25%;
+}
+
+@media screen and (max-width: 640px) {
+  .photoshop{
+    margin-top: 100%;
+  }
+}
+
+/*********************************************** Contacts Page ***************************************/
+
+.contact-page{
+  padding: 5% 15% 5% 15%;
+  color: #fff;
+  background: linear-gradient(-45deg, #861657, #BD4F6C, #A4508B, #380036, #F53844,#233329, #1D2671, #155799, #159957, #0BAB64);
+	background-size: 400% 400%;
+	-webkit-animation: gradientBG 15s ease infinite;
+	        animation: gradientBG 15s ease infinite;
+}
+
+@-webkit-keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+/********************** Contact Heading *************************/
+
+.contact{
+    margin-top: 5%;
+    font-family: 'Orbitron', sans-serif;
+    color: #fffbf1;
+    text-shadow: 0 10px 12px #2e2e31, 0 20px 30px #2e2e31;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -3px;
+    margin: 4% 0 4% 0%;
+}
+
+@media screen and (max-width: 640px) {
+  .contact{
+    margin-top: 30%;
+    right: 0%;
+    left: 1.5%;
+  }
+}
+
+/********************** Downloads *************************/
+
+.download{
+  pointer-events: none;
+}
+
+.p-download{
+  margin-top: 15%;
+}
+
+
+@media screen and (max-width: 640px) {
+  .p-download{
+    text-align: center;
+    margin-top: -20%;
+  }
+}
+
+.span-download{
+  color: white;
+  padding-top: 2%;
+}
+
+.last-logo{
+  height: 15rem;
+  width: 15rem;
+}
+
+/********************** Icons Large Screen *************************/
+
+.ul {
+  display: flex;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 35%;
+  transform: translate(-50%, -50%);
+}
+
+.li {
+  list-style: none;
+}
+
+.a {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px ;
+  z-index: 1;
+}
+
+@media screen and (max-width: 640px) {
+  .ul{
+    display: none;
+  }
+  .li{
+    display: none;
+  }
+  .a{
+    display: none;
+  }
+}
+
+.icon {
+  position: relative;
+  color: #C0C0C0;
+  transition: .5s;
+  z-index: 3;
+}
+
+.a:hover .icon {
+  color: #fffbf1;
+  transform: rotateY(360deg);
+}
+
+.a:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f00;
+  transition: .5s;
+  z-index: 2;
+}
+
+.a:hover:before {
+  top: 0;
+}
+
+.li:nth-child(1) .a:before{
+  background: #3b5999;
+}
+
+.li:nth-child(2) .a:before{
+  background: #55acee;
+}
+
+.li:nth-child(3) .a:before {
+  background: #0077b5;
+}
+
+.li:nth-child(4) .a:before {
+  background: #dd4b39;
+}
+
+.li:nth-child(5) .a:before {
+  background: #25d366;
+}
+
+.li:nth-child(6) .a:before {
+  background: linear-gradient(45deg, #FFDC80, #FCAF45, #F77737, #F56040, #FD1D1D, #E1306C, #C13584, #833AB4, #5851DB, #405DE6);
+}
+
+.li:nth-child(7) .a:before {
+  background: #000000;
+}
+
+/********************** Icons Mobile sized screen *************************/
+
+.ul-m {
+  display: flex;
+  position: relative;
+  margin-top: 10%;
+  margin-left: 17%;
+  transform: translate(-50%, -50%);
+}
+
+.li-m {
+  list-style: none;
+}
+
+.a-m {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 25px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1026px) {
+  .ul-m{
+    display: none;
+  }
+  .li-m{
+    display: none;
+  }
+  .a-m{
+    display: none;
+  }
+}
+
+.a-m{
+  color: white;
+}
+
+.a-m:visited{
+  color: white;
+}
+
+/********************** Footer Paragraph *************************/
+
+.card-footer{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.footer-text{
+  color: #C0C0C0;
+}
+
+.footer-img{
+  height: 2rem;
+  width: 2rem;
+  margin-bottom: 5px;
+}
+
+.fa-heart{
+  color: #CA0125;
+}

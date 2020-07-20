@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anurag Agrawal</title>
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+  <!-- CSS StyleSheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/62126ac75e.js" crossorigin="anonymous"></script>
+
+  <!-- BootStrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Animation Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+</head>
+
+<body>
+
+  <!-- /* *****************************************         First Page          ****************************************/ -->
+
+  <section class="first-page" id="title">
+
+    <div class="container-fluid">
+
+      <!-- /***************************** Navigation Bar **************/ -->
+
+      <div class="navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="images/logo.png" width="100" height="100" alt="logo-image" loading="lazy" href="#title">
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-arrow-down"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link a-nav" href="#profile">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a-nav" href="#experience">Experiences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a-nav" href="#abilities">Abilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a-nav" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link a-nav" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+      </div>
+
+      <!-- /***************************** Name **************/ -->
+
+      <div class="name">
+
+        <h1 class="anurag ml3">I'm Anurag</h1>
+        <h2 class="web ml2">A WEB DEVELOPER</h2>
+
+      </div>
+
+  </section>
+
+  <!-- /* *****************************************         Profile Page          ****************************************/ -->
+
+  <section class="profile-page" id="profile">
+
+    <!-- /***************************** Profile - Heading **************/ -->
+
+    <p class="heading" href="">Profile</p>
+
+    <!-- /***************************** About Me - Section **************/ -->
+
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-4">
+          <h3 class="feature-title" id="about-me">About Me</h3>
+          <p class="p-left">I am a Web Developer and an undergraduate Student at KIIT University, studying Computer Science and Engineering. I love structure and order and I also stand for quality. I love spending time on fixing little
+            details.</p>
+        </div>
+
+        <!-- /***************************** Profile Picture **************/ -->
+
+        <div class="feature-box col-lg-4">
+          <img class="profile-picture" src="images/profile-picture.png" alt="profile-picture">
+        </div>
+
+        <!-- /***************************** Details Section **************/ -->
+
+        <div class="feature-box col-lg-4">
+          <h3 class="feature-title" id="details">Details</h3>
+          <h5 class="detail-items">Name</h5>
+          <p class="p-right">Anurag Agrawal</p>
+          <h5 class="detail-items">Age</h5>
+          <p class="p-right">
+            <script>
+              document.write(new Date().getFullYear().toString().substr(2, 3))
+            </script>
+          </p>
+          <h5 class="detail-items">Location</h5>
+          <p class="p-right"><i class="fas fa-map-marker-alt"></i> Bokaro, Jharkhand<br>India</p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- /* *****************************************         Experience Page          ****************************************/ -->
+
+  <section class="experinece-page" id="experience">
+
+    <!-- /***************************** Experience Heading **************/ -->
+
+    <p class="heading experiences" href="">Experiences</p>
+
+    <!-- /***************************** Education Section **************/ -->
+
+    <h3 class="feature-title educations">Educations</h3>
+
+    <!-- /***************************** Education Cards **************/ -->
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/kiit-logo.png" class="card-img" alt="kiit-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">Kalinga Institute of Industrial Technology</h5>
+            <p class="card-text p-right">Bachelor of Technology degree in<br> Computer Science & Engineering.<br>2019-2023</p>
+            <p class="card-text p-right"><i class="fas fa-link"></i> <a class="p-right-a" href="https://kiit.ac.in/" target="_blank">https://kiit.ac.in/</a><br><i class="fas fa-map-marker-alt"></i> Bhubaneswar, Odisha<br>India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/sai-logo.png" class="card-img" alt="sai-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">SAI International School</h5>
+            <p class="card-text p-right">High School<br>Science (PCM)<br>2016-2018<br></p>
+            <p class="card-text p-right"><i class="fas fa-link"></i> <a class="p-right-a" href="https://saiinternational.edu.in/" target="_blank">https://saiinternational.edu.in/</a><br><i class="fas fa-map-marker-alt"></i> Bhubaneswar,
+              Odisha<br>India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /***************************** Careers Section **************/ -->
+
+    <h3 class="feature-title careers">Careers</h3>
+
+    <p class="card-text p-right">No Work Experience 😭</p>
+
+  </section>
+
+  <!-- /* *****************************************         Abilities Page          ****************************************/ -->
+
+  <section class="abilities-page" id="abilities">
+
+    <!-- /***************************** Abilities Heading **************/ -->
+
+    <p class="heading abilities" href="">Abilities</p>
+
+    <!-- /***************************** Achievements Section **************/ -->
+
+    <h3 class="feature-title skills">Achievements</h3>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/google-crowdsource.png" class="card-img" alt="google-crowdsource-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">Got Featured on Official Google Crowdsource's Facebook Page</h5>
+            <p class="card-text p-right"><a class="p-right-a" href="https://www.facebook.com/crowdsourcebygoogleofficial/photos/a.426070091086023/1158865617806463" target="_blank">I got featured on the Official Facebook page of Google Crowdsource for
+                having 60,000+ Contributions</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/kiit-logo.png" class="card-img" alt="kiit-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">KIIT Entrance Examination (KIITEE)</h5>
+            <p class="card-text p-right"><a class="p-right-a" href="https://drive.google.com/file/d/1Pb_Crcr1lR1-pEXydX3xXW_sQfAOn060/view?usp=sharing" target="_blank">All India Rank 950 in KIITEE (General)</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/cbse.png" class="card-img" alt="kiit-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">CBSE Board Exam</h5>
+            <p class="card-text p-right"><a class="p-right-a" target="_blank">95.2 % in CBSE 12th Board Exam (Science, PCM)</a></p>
+            <p class="card-text p-right"><a class="p-right-a" target="_blank">10 CGPA in CBSE 10th Board Exam</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /***************************** Certifications Section **************/ -->
+
+    <h3 class="feature-title languages">Certifications</h3>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/google-digital-garage.png" class="card-img" alt="google-digital-garage-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">Google Digital Garage</h5>
+            <p class="card-text p-right"><a class="p-right-a" href="https://drive.google.com/file/d/1Lubo05PiNtE0xn4FqjCKPl1xXr2nsxC2/view?usp=sharing" target="_blank">The Fundamentals of Digital Marketing</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/udemy.png" class="card-img" alt="udemy-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">Udemy</h5>
+            <p class="card-text p-right">
+              <span><a class="p-right-a" href="http://ude.my/UC-fa404cda-9f04-425a-932a-79d65adf23eb" target="_blank">The Complete 2020 Web Development Bootcamp, </a></span>
+              <span><a class="p-right-a" href="http://ude.my/UC-e6b61243-e22f-4b03-8c39-cef469e0570f" target="_blank">User Experience Design Essentials - Adobe XD UI UX Design, </a></span>
+              <span><a class="p-right-a" href="http://ude.my/UC-341d1a12-8daa-408f-831e-908c95459040" target="_blank">Adobe Photoshop CC - Essentials Training Course</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/programming-hub.png" class="card-img" alt="programming-hub-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">Programming Hub</h5>
+            <p class="card-text p-right">
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/16Q3KnAIhZawchBre9MpKODNxzETHQanv/view?usp=sharing" target="_blank">C, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/16wGMzLYQ5uPOGg5PATK51d634Yw7SLep/view?usp=sharing" target="_blank">Fundamentals, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/16ySK8ObAVXkc46MpQkP7ZjjSA7m3pQS-/view?usp=sharing" target="_blank">Social Media Marketing, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/16rFYoSHJDeoIa4ZY06wtzovg2ry77KSB/view?usp=sharing" target="_blank">Computer Networks, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/16yCrkV6zbfTP8MVDwCFzFa2h8qk2KTnj/view?usp=sharing" target="_blank">IT Basics, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/17WLym2Fnq5nZdFCrjH7De1iFFhPwRyks/view?usp=sharing" target="_blank">C Advanced, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/18FESoTK10gO5KAA-YmCF9y3kLhwDCgtr/view?usp=sharing" target="_blank">C++, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1DFKlyNlQu2S9dMukUx4ueYIiK-TumRvV/view?usp=sharing" target="_blank">C++ Advanced, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1ECC8151hRuB5ZoH_v3CHLYaVw2SASWa9/view?usp=sharing" target="_blank">Google Search Ads, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1FY4HKQg7EbVeuK_NRDauMWcM4mEMFHfN/view?usp=sharing" target="_blank">HTML, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1FjA02ToLEhd44B-X1iBNHURxCde4LVyd/view?usp=sharing" target="_blank">HTML Advanced, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1GWga_kuSC7hSI166fDRH4G5fDff_rLsa/view?usp=sharing" target="_blank">CSS, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1GmAVOIaSZOYPOw-ZmwGlRouGZrkWVL_C/view?usp=sharing" target="_blank">Building a Website, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1HNmWRdlatTjMyZude-OJrRv6JxeKdrjJ/view?usp=sharing" target="_blank">JavaScript, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1HvIQFMLAZ-eTJuF_yDyQ17vpyL2XoUtD/view?usp=sharing" target="_blank">JavaScript Advanced, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1IBJwOxUtC0MHvuSiZx6Xrloaj_x9kbZk/view?usp=sharing" target="_blank">JQuery, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1IYLeAJVO98Gt4SV1SeWPWZJw7hvfGNLP/view?usp=sharing" target="_blank">Shell Script, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1NdU_A9tntm4bLru6MyBWgiuBenZ0Bo-f/view?usp=sharing" target="_blank">SEO, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1JzLjqulAhL_varcKgnLRrDmltWE2UGur/view?usp=sharing" target="_blank">SQL, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1OE7KS25T_IalwFd8HNJSTUKGNpcajRS-/view?usp=sharing" target="_blank">UI UX, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1OW8QaTr-n7_rNr8155cgS33pRQf2jxH7/view?usp=sharing" target="_blank">Google Video Ads, </a></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1OqRNKKHTJXPQjgJzSxRWPz3ThwSgWOhG/view?usp=sharing" target="_blank">Cryptography</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /***************************** Skills Section **************/ -->
+
+    <h3 class="feature-title languages">Skills</h3>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">HTML 5</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span></div>
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">CSS 3</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">BootStrap</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span></div>
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">JQuery</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">JavaScript(ES6)</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span></div>
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">React JS</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Node JS</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></div>
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">MongoDB</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">C</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></div>
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">C++</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+
+    <!-- /***************************** Languages Section **************/ -->
+
+    <h3 class="feature-title languages">Languages</h3>
+
+    <div class="row">
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">English<br>(Daily use)</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Hindi<br>(Mother Tongue)</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+    </div>
+
+    <!-- /***************************** Tools Section **************/ -->
+
+    <h3 class="feature-title languages">Tools</h3>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Chrome</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Windows</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Adobe XD</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Photoshop</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">MS Office</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">G Suite</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Atom</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">V S Code</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Git</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Hyper</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Postman</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span><span class="far fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Robo 3T</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+
+    <!-- /***************************** Other Skills - Section **************/ -->
+
+    <h3 class="feature-title languages">Other Skills</h3>
+
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">10-Finger Typing</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Rubik's Cube (2x2x2, 3x3x3, Mirror)</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"><span class="fas fa-star-half-alt fa-star"></span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Chess</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span><span class="far fa-star"></span></div>
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Carrom</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Side Drum</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="far fa-star"></span></div>
+
+      <div class="col-md-3 col-6">
+        <p class="card-text p-left ab-items">Tabla</p>
+      </div>
+      <div class="col-md-3 col-6 star-right"><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt fa-star"></span><span class="far fa-star"></span></div>
+    </div>
+  </section>
+
+  <!-- /* *****************************************         Projects Page          ****************************************/ -->
+
+  <section class="project-page" id="project">
+
+    <!-- /***************************** Projects Heading **************/ -->
+
+    <p class="heading projects" href="">Projects</p>
+
+    <div class="card mb-3 card-educations photoshop" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/photoshop.png" class="card-img" alt="photoshop-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items">Photoshop Projects</h5>
+            <p class="card-text p-right">
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1IbQQrlZZUwPV23BC0UX25P--2LwP8__f/view?usp=sharing" target="_blank">Visiting Card</a><br></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1fmv2ELlhP119X4eyRQSwYIGTpZLNre5L/view?usp=sharing" target="_blank">Boat in Bottle</a><br></span>
+              <span><a class="p-right-a" href="https://drive.google.com/file/d/1g1oaaxtP5EiYD4rSMuyA5Va6CjCR-Za7/view?usp=sharing" target="_blank">Shoe Poster</a></span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- /* *****************************************         Contact Page          ****************************************/ -->
+
+  <section class="contact-page" id="contact">
+
+    <!-- /***************************** Projects Heading **************/ -->
+
+    <p class="contact" href="">Contact</p>
+
+    <div class="card mb-3 card-educations" style="max-width: 100%;">
+      <div class="row no-gutters">
+        <div class="col-md-4">
+          <img src="images/logo.png" class="card-img last-logo" alt="photoshop-logo">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title detail-items p-download"></h5>
+            <p class="card-text p-right">
+              <span><a class="p-right-a detail-items span-download" href="" target="_blank"><i class="fas fa-download"></i> RESUME</a><br></span>
+              <span><a class="p-right-a detail-items span-download" href="https://drive.google.com/file/d/1IbQQrlZZUwPV23BC0UX25P--2LwP8__f/view?usp=sharing" target="_blank"><i class="fas fa-download"></i> VISITING CARD</a><br></span>
+            </p>
+            <p class="card-text p-right">
+
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- /***************************** Icons Large Screen **************/ -->
+
+    <ul class="ul">
+      <li class="li tool-tip">
+        <a class="a" href="https://www.facebook.com/anuragagrawal25121999" target="_blank"><i class="fab fa-facebook-f icon"></i></a>
+      </li>
+      <li class="li">
+        <a class="a" href="https://twitter.com/anurag25121999" target="_blank"><i class="fab fa-twitter icon"></i></a>
+      </li>
+      <li class="li">
+        <a class="a" href="https://www.linkedin.com/in/anuragagrawal99/" target="_blank"><i class="fab fa-linkedin-in icon"></i></a></li>
+      <li class="li">
+        <a class="a" href="mailto:anuragagrawal25121999@gmail.com" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GMail"><i class="fab fa-google icon"></i></a></li>
+      <li class="li">
+        <a class="a" data-toggle="tooltip" data-placement="bottom" title="+91 8252725238"><i class="fab fa-whatsapp icon"></i></a></li>
+      <li class="li">
+        <a class="a" href="https://www.instagram.com/_anurag_agrawal_/" target="_blank"><i class="fab fa-instagram icon"></i></a></li>
+      <li class="li">
+        <a class="a" href="https://github.com/anuragagrawal99" target="_blank"><i class="fab fa-github icon"></i></a></li>
+    </ul>
+
+    <!-- /***************************** Icons Small Screen **************/ -->
+
+    <ul class="ul-m">
+      <li class="li-m">
+        <a class="a-m" href="https://www.facebook.com/anuragagrawal25121999" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li class="li-m">
+        <a class="a-m" href="https://twitter.com/anurag25121999" target="_blank"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li class="li-m">
+        <a class="a-m" href="https://www.linkedin.com/in/anuragagrawal99/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+      <li class="li-m">
+        <a class="a-m" href="mailto:anuragagrawal25121999@gmail.com" target="_blank"><i class="fab fa-google"></i></a></li>
+      <li class="li-m">
+        <a class="a-m" href="tel:+918252725238" target="_blank" id="whatsapp"><i class="fab fa-whatsapp"></i></a></li>
+      <li class="li-m">
+        <a class="a-m" href="https://www.instagram.com/_anurag_agrawal_/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+      <li class="li-m">
+        <a class="a-m" href="https://github.com/anuragagrawal99" target="_blank"><i class="fab fa-github"></i></a></li>
+    </ul>
+
+    <!-- /***************************** Footer Paragraph **************/ -->
+
+    <p class="card-text footer-text">Designed & Manufactured with <span class="fas fa-heart"></span> by Anurag Agrawal</p>
+    <p class="card-text footer-text">© <script>
+        document.write(new Date().getFullYear().toString())
+      </script> <img src="images/logo.png" class="footer-img" alt="logo"> Anurag Agrawal</p>
+
+  </section>
+
+  <!-- /***************************** Tooltip Hover Effect JQuery **************/ -->
+
+  <script>
+    $(document).ready(function() {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+
+  <!-- /***************************** Icons Small Screen **************/ -->
+
+  <script>
+    document.getElementById("whatsapp").onclick = function() {
+      document.getElementById("whatsapp").style.color = 'white';
+    }
+  </script>
+
+  <!-- /***************************** JQuery and JavaScript **************/ -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
